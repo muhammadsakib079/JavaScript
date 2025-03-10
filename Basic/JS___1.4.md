@@ -107,7 +107,7 @@ console.log(status); // Output: "Adult"
 
 ---
 
-## 📌 **1.4.3 `switch` Statement**  
+## 📌 **1.4. `switch` Statement**  
 The `switch` statement is an alternative to multiple `if...else if` conditions. It compares a value against multiple **cases** and executes the matching case.  
 
 #### **Syntax:**  
