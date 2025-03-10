@@ -58,22 +58,4 @@ Logical operators are used to combine multiple conditions.
 
 ---
 
-#### ❓ **1.3.5 Ternary Operator**  
-The ternary operator is a shorthand for `if-else` statements.  
-
-##### **Syntax:**  
-```javascript
-condition ? value_if_true : value_if_false;
-```
-##### **Example:**  
-```javascript
-let age = 18;
-let status = (age >= 18) ? "Adult" : "Minor";
-console.log(status); // Output: "Adult"
-```
-- If `age >= 18` is `true`, it returns `"Adult"`.  
-- If `age >= 18` is `false`, it returns `"Minor"`.  
-
----
-
 This structured format helps in quickly understanding JavaScript operators with examples and explanations. Let me know if you need further clarification! 🚀

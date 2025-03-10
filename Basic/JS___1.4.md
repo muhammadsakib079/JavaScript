@@ -89,7 +89,25 @@ if (score >= 90) {
 
 ---
 
-## 📌 **1.4.2 `switch` Statement**  
+#### ❓ **1.4.2 Ternary Operator**  
+The ternary operator is a shorthand for `if-else` statements.  
+
+##### **Syntax:**  
+```javascript
+condition ? value_if_true : value_if_false;
+```
+##### **Example:**  
+```javascript
+let age = 18;
+let status = (age >= 18) ? "Adult" : "Minor";
+console.log(status); // Output: "Adult"
+```
+- If `age >= 18` is `true`, it returns `"Adult"`.  
+- If `age >= 18` is `false`, it returns `"Minor"`.  
+
+---
+
+## 📌 **1.4.3 `switch` Statement**  
 The `switch` statement is an alternative to multiple `if...else if` conditions. It compares a value against multiple **cases** and executes the matching case.  
 
 #### **Syntax:**  
